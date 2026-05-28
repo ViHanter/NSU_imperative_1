@@ -1,0 +1,1 @@
+gcc -shared -o integerset.dll integerset.c

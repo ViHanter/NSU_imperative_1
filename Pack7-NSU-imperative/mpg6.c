@@ -58,13 +58,35 @@ int main(){
             scanf("%d %d",&type,&idx);
             
             double *target = nodes[idx + 1];
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
             switch (type)
             {
             case 1:
                 scanf("%lf",&value);
                 nodes[++node_count] = addAfter(target, value);
                 break;
-            case -1:
+            
+                case -1:
                 scanf("%lf",&value);
                 nodes[++node_count] = addBefore(target, value);
                 break;

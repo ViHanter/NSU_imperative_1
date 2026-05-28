@@ -1,0 +1,5 @@
+@echo off
+cl /c /nologo /O2 *.c /I.
+cl /c /nologo /O2 /DUSE_CRYPT unzip.c ioapi.c /I.
+cl /c /nologo /O2 test.c /I.
+cl /nologo *.obj /Fechecked_solution.exe

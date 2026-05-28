@@ -50,8 +50,8 @@ void binary_search(int *arr, int len, int target, int *index, int *distance) {
     }
     
     // После цикла:
-    // right указывает на последний элемент < target (или -1 если все >= target)
-    // left указывает на первый элемент >= target (или len если все < target)
+    // left указывает на последний элемент < target (или -1 если все >= target)
+    // right указывает на первый элемент >= target (или len если все < target)
     
     // Рассматриваем двух кандидатов: right и left
     int candidate1 = -1, candidate2 = -1;
@@ -82,7 +82,7 @@ void binary_search(int *arr, int len, int target, int *index, int *distance) {
         *distance = dist2;
     } else {
         // Если расстояния равны, выбираем любой индекс (по условию можно любой)
-        *index = candidate2; // или candidate2 - не важно
+        *index = candidate2;
         *distance = dist1;
     }
 }
